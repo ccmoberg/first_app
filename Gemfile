@@ -38,3 +38,7 @@ gem 'jbuilder', '~> 1.0.1'
 
 # To use debugger
 # gem 'debugger'
+
+group :production do
+  gem 'pg', '0.14.1'
+end
